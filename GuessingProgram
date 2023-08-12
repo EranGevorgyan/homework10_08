@@ -1,0 +1,8 @@
+password = "1960"
+i=1
+while i<4:
+    password1 = input("Please find the password ")
+    if password1 == password:
+        print("Currect password")
+        break
+    i = i+1
