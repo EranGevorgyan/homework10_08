@@ -1,0 +1,8 @@
+ls1 = [5, 6, 9, 87, 56, 32, 12, 45]
+ls2 = [9, 8, 23, 12, 10, 56, 7899, 23]
+
+for i in range(len(ls1)):
+    for j in range(len(ls2)):
+        if ls1[i] != ls2[j]:
+            continue
+        print(ls1[i])
