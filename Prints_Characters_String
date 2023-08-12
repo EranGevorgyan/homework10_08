@@ -1,0 +1,5 @@
+str = "Hello World"
+for i in range(len(str)):
+    if str[i] == " ":
+        continue
+    print(str[i])
