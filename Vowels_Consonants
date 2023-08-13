@@ -1,0 +1,11 @@
+string = input("Enter a string: ")
+vowels = "aeiouAEIOU"
+consonants = "bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ"
+count1 = 0
+count2 = 0
+for i in string:
+    if i in vowels:
+        count1 += 1
+    elif i in consonants:
+        count2 += 1
+print("Vowels:",count1, "Consonants:", count2)
