@@ -1,0 +1,2 @@
+my_dict = {i:i**2 for i in range(101)}
+print(my_dict)
