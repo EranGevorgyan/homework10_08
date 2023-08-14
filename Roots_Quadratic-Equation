@@ -1,0 +1,14 @@
+a = int(input("mutqagreq gorcakic: "))
+b = int(input("mutqagreq gorcakic: "))
+c = int(input("mutqagreq gorcakic: "))
+D = b**2 - 4*a*c 
+if D < 0:
+    print("Dikriminaty chi karox poqr linel 0 ic")
+elif D == 0:
+    x1 = -b / (2*a)
+    print("x1 = x2:", x1)
+else:
+    x1 = (-b + D**0.5) / (2*a)
+    x2 = (-b - D**0.5) / (2*a)
+    print("x1 =", x1)
+    print("x2 =", x2)
